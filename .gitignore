@@ -1,0 +1,42 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+tripenv/
+venv/
+.env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# HuggingFace / model cache
+.cache/
+.huggingface/
+
+# Gemini / Google cache
+.genai/
+
+# LangGraph state cache
+langgraph.db
